@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{3199D46C-CEBC-9CAC-6529-FD1159AA1151}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2017_4_3;UNITY_2017_4;UNITY_2017;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;PLATFORM_IOS;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;VUFORIA_IOS_SETTINGS;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR;ENABLE_MONO</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\MergeCubeSDK\_Examples\IntroSequencer\Scripts\InputHandle.cs" />
+     <Compile Include="Assets\MergeCubeSDK\_Examples\IntroSequencer\Scripts\IntroSequenceExampleManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\MergeCubeSDK_UI\GFX\Sprites\LoadingAnimation\MergeEveRotate.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\Core\Callback.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\Core\MergeAndroidBridge.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\Core\MergeCubeScreenRotateManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\Core\MergeCubeSDK.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\Core\MergeIOSBridge.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\Core\PermissionProcessor.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\IntroSequencer\IntroSequencer.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\IntroSequencer\SplashScreenManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\IntroSequencer\TitleScreenManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\MergeMultiTarget\MergeMultiTarget.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\MergeMultiTarget\MergeMultiTargetGenerator.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\MergeMultiTarget\MergeTrackableEventHandler.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\AI_TextureSwitch.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\AnimationToggle.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\DisableOniPad.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\ExpandingMenuManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\HeadsetListButton.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\LensGenerator.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\MenuButton.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\MergeReticle.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\NoticePageManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\TimerUI.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Helpers\CameraCover.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Helpers\DND.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Helpers\GizmoDrawHelper.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Helpers\ToggleSprite.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Input\GazeInput\Core\GazeCaster.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Input\GazeInput\Core\GazeResponder.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Input\GazeInput\Examples\BasicGazeButton.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Input\GazeInput\Examples\GazeSpriteButton.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Input\GazeInput\Examples\GazeToggleSprite.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Input\InputRelativeRotation.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Input\InputVelocity.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Input\PointerControl.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\MergeSDK\CubeOrientation.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Recording\Scripts\Blitter.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Recording\Scripts\RecordingManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\ScanToBeginHelper\Scripts\TrackOnce.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Art\Welcome_ScanToBegin\Scripts\CubeScan.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Gaze_Input\IntroGazeButton.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Gaze_Input\IntroGazeCaster.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Gaze_Input\IntroGazeResponder.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Gaze_Input\IntroGazeSpriteButton.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Gaze_Input\IntroGazeToggleSprite.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Gaze_Input\IntroMergeReticle.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Intro_Specific\IntroControl.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Intro_Specific\IntroParticleScaler.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Intro_Specific\IntroSkySphere.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Intro_Specific\IntroTrackableEventHandler.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Intro_Specific\LineRendererController.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Intro_Specific\LookAroundTargetControl.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Intro_Specific\LookAroundTargetManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Intro_Specific\LRScrollingTexture.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Intro_Specific\MergeTutorial.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Intro_Specific\ModelAnimationManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Intro_Specific\MoveCubeCanvas.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Intro_Specific\MoveCubeManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Intro_Specific\TargetCubeControl.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Intro_Specific\TextBoxManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Utilities\FaceToCamera.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Utilities\FollowCameraLookAtCamera.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Utilities\LookAtARCamera.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Utilities\LookAtMultiTarget.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Utilities\PingPongAnima.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Utilities\PositionToParent.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tutorial\Scripts\Utilities\YAxisRotation.cs" />
+     <Compile Include="Assets\Motion Simution Assets\Scripts\AxisLineScaler.cs" />
+     <Compile Include="Assets\Motion Simution Assets\Scripts\CanvasBackground.cs" />
+     <Compile Include="Assets\Motion Simution Assets\Scripts\DataRecorder.cs" />
+     <Compile Include="Assets\Motion Simution Assets\Scripts\ForceImageSprite.cs" />
+     <Compile Include="Assets\Motion Simution Assets\Scripts\GraphCreator.cs" />
+     <Compile Include="Assets\Motion Simution Assets\Scripts\InformationPanel.cs" />
+     <Compile Include="Assets\Motion Simution Assets\Scripts\MainController.cs" />
+     <Compile Include="Assets\Motion Simution Assets\Scripts\ReferenceCube.cs" />
+     <Compile Include="Assets\Motion Simution Assets\Scripts\ReferenceObjects.cs" />
+     <Compile Include="Assets\Motion Simution Assets\Scripts\Reset.cs" />
+     <Compile Include="Assets\Motion Simution Assets\Scripts\Ship.cs" />
+     <Compile Include="Assets\Motion Simution Assets\Scripts\ShipMovement.cs" />
+     <Compile Include="Assets\Motion Simution Assets\Scripts\SideGizmo.cs" />
+     <Compile Include="Assets\Motion Simution Assets\Scripts\Sidepanel.cs" />
+     <Compile Include="Assets\Motion Simution Assets\Scripts\SimpleButtonHandler.cs" />
+     <Compile Include="Assets\Motion Simution Assets\Scripts\StatBehaviour.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\Accordion\Accordion.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\Accordion\AccordionElement.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\Accordion\Tweening\FloatTween.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\Accordion\Tweening\ITweenValue.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\Accordion\Tweening\TweenRunner.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\BoxSlider.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ColorPicker\ColorImage.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ColorPicker\ColorLabel.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ColorPicker\ColorPickerControl.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ColorPicker\ColorPickerPresets.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ColorPicker\ColorPickerTester.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ColorPicker\ColorSlider.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ColorPicker\ColorSliderImage.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ColorPicker\ColorValues.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ColorPicker\Events\ColorChangedEvent.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ColorPicker\Events\HSVChangedEvent.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ColorPicker\HexColorField.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ColorPicker\HSVUtil.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ColorPicker\SVBoxSlider.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ColorPicker\TiltWindow.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ComboBox\AutoCompleteComboBox.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ComboBox\ComboBox.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ComboBox\DropDownList.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ComboBox\DropDownListButton.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ComboBox\DropDownListItem.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\CooldownButton.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\InputFocus.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\MultiTouchScrollRect.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\RadialSlider.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ReorderableList\ReorderableList.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ReorderableList\ReorderableListContent.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ReorderableList\ReorderableListDebug.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ReorderableList\ReorderableListElement.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\RescalingPanels\RescaleDragPanel.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\RescalingPanels\RescalePanel.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\RescalingPanels\ResizePanel.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\SegmentedControl.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\SelectionBox\ExampleSelectable.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\SelectionBox\IBoxSelectable.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\SelectionBox\SelectionBox.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\Stepper.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\TextPic.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\UI_Knob.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\BestFitOutline.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\CurlyUI\CUIBezierCurve.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\CurlyUI\CUIGraphic.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\CurlyUI\CUIImage.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\CurlyUI\CUIMisc.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\CurlyUI\CUIText.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\CurvedText.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\CylinderText.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\Gradient.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\Gradient2.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\LetterSpacing.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\MonoSpacing.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\NicerOutline.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\RaycastMask.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\ShaderEffects\UIAdditiveEffect.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\ShaderEffects\UIImageCrop.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\ShaderEffects\UILinearDodgeEffect.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\ShaderEffects\UIMultiplyEffect.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\ShaderEffects\UIScreenEffect.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\ShaderEffects\UISoftAdditiveEffect.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\ShineEffect.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\ShineEffector.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\SoftMaskScript.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\UIFlippable.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\UIParticleSystem.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\InputModules\AimerInputModule.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\InputModules\GamePadInputModule.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\CurvedLayout.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\FancyScrollView.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\FancyScrollViewCell.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\FlowLayoutGroup.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\HorizontalScrollSnap.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\IScrollSnap.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\RadialLayout.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\ScrollPositionController.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\ScrollSnap.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\ScrollSnapBase.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\ScrollSnapScrollbarHelper.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\TableLayoutGroup.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\TileSizeFitter.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\UIVerticalScroller.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\VerticalScrollSnap.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\MenuSystem\Menu.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\MenuSystem\MenuManager.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\MenuSystem\SimpleMenu.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Primitives\DiamondGraph.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Primitives\UICircle.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Primitives\UICornerCut.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Primitives\UIGridRenderer.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Primitives\UILineRenderer.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Primitives\UILineTextureRenderer.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Primitives\UIPolygon.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Primitives\UIPrimitiveBase.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\TabNavigationHelper.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\ToolTips\BoundTooltip\BoundTooltipItem.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\ToolTips\BoundTooltip\BoundTooltipTrigger.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\ToolTips\HoverTooltip.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\ToolTips\ToolTip.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\UIWindowBase.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\BezierPath.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\CableCurve.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Circle.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\CLZF2.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\DragCorrector.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ExtensionsToggle.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ExtensionsToggleGroup.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\InputFieldEnterSubmit.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\NonDrawingGraphic.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\PaginationManager.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\PPIViewer.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ReadOnlyAttribute.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ReturnKeyTriggersButton.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ScrollConflictManager.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ScrollRectEx.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ScrollRectExtensions.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ScrollRectLinker.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ScrollRectTweener.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\SelectableScaler.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\SetPropertyUtility.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\switchToRectTransform.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\TestCompression.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\UI_InfiniteScroll.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\UI_ScrollRectOcclusion.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\UI_TweenScale.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\UIExtensionMethods.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\UIHighlightable.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\UILineConnector.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\UIScrollToSelection.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\UIScrollToSelectionXY.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\UISelectableExtension.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\VR Extensions\VRCursor.cs" />
+     <Compile Include="Assets\unity-ui-extensions\Scripts\VR Extensions\VRInputModule.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultSmartTerrainEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\GLErrorHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\HideExcessAreaBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\AndroidUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\ComponentFactoryStarterBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\IOSUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\WSAUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\MaskOutBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\MultiTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ObjectTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\PropBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ReconstructionBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ReconstructionFromTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\SurfaceBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TextRecoBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TurnOffBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TurnOffWordBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\UserDefinedTargetBuildingBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Utilities\VRIntegrationHelper.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VideoBackgroundBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VirtualButtonBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuforiaBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuforiaConfiguration.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuforiaRuntimeInitialization.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuMarkBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UIAdditive.shader" />
+     <None Include="Assets\MergeCubeSDK\Tutorial\Art\Shaders\Merge\Transparent Cutout_ZwriteOff.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UI Particle AddSmooth.shader" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\MergeCubeSDK\Tutorial\Art\Shaders\Merge\UnlitAlphaWithFade.shader" />
+     <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UI Particle Premultiply Blend.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UISoftAdditive.shader" />
+     <None Include="Assets\MergeCubeSDK\Tutorial\Art\Shaders\Unlit-AlphaBackground.shader" />
+     <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UIParticleHidden.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\SoftMaskShader.shader" />
+     <None Include="Assets\MergeCubeSDK\Tutorial\Art\Shaders\AlphaMask.shader" />
+     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\MergeCubeSDK\Tutorial\Art\Shaders\StandardNoCull.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UI Particle Add.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UI Particle Multiply.shader" />
+     <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UI Particle Alpha Blend.shader" />
+     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UIImageCrop.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UILinearDodge.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UI Particle VertexLit Blended.shader" />
+     <None Include="Assets\MergeCubeSDK\Tutorial\Art\Shaders\Sprites-OnTop.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UI Particle AddMultiply.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UI Particle Blend.shader" />
+     <None Include="Assets\MergeCubeSDK\Tutorial\Art\Shaders\SciFiHologramShader.shader" />
+     <None Include="Assets\MergeCubeSDK\Tutorial\Art\Shaders\Merge\UI_SingleSide.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UIMultiply.shader" />
+     <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\MergeCubeSDK\Tutorial\Art\Shaders\Unlit-Alpha.shader" />
+     <None Include="Assets\MergeCubeSDK\MergeCubeSDK_UI\Shaders\Sprites-OnTop.shader" />
+     <None Include="Assets\MergeCubeSDK\Resources\MergeCube.xml" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UIScreen.shader" />
+     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+     <None Include="Assets\MergeCubeSDK\MergeCubeSDK_UI\Shaders\UnlitUVClip.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UI Particle MultiplyDouble.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="MergeCubeCore">
+ <HintPath>/Users/devan/Documents/Unity/Github/Motion Simulation/Assets/MergeCubeSDK/Scripts/Core/MergeCubeCore.dll</HintPath>
+ </Reference>
+ <Reference Include="Vuforia.UnityExtensions">
+ <HintPath>/Users/devan/Documents/Unity/Github/Motion Simulation/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Users/devan/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Users/devan/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>/Users/devan/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
